@@ -7,7 +7,7 @@
 
             div#container{
                 width: 900px;
-                height: 1000px;
+                height: 1100px;
                 background-color: lawngreen;
                 margin-left: auto;
                 margin-right: auto;
@@ -29,17 +29,16 @@
             div#menu{
                 width: 600px;
                 height: 50px;
-                background-color: yellow;
                 float: left;
-                margin-left: 80px;
+                margin-left: 40px;
                 margin-top: 15px;
 
             }
 
             div#menu p{
                 display: inline-block;
-                margin-right: 100px;
-                font-size: 20px;
+                margin-right: 30px;
+                font-size: 16px;
             }
 
             div#sectionBanner{
@@ -49,6 +48,7 @@
                 text-align: center;
                 padding-top: 100px;
                 box-sizing: border-box;
+                
             }
 
             div#about{
@@ -66,23 +66,43 @@
                 width: 900px;
                 height: 300px;
                 text-align: center;
+                padding-top: 60px;
 
             }
             
+            h2#offerTitle{
+                padding-bottom: 40px;
+            }
+
+
             div#leftofferDiv{
                 width: 300px;
-                height: 100px;
-                margin-left: 100px;
+                height: 200px;
+                float: left;
+                margin-left: 148px;
                 background-color: green;
+                padding-top: 20px;
             }
 
             div#rightofferDiv{
                 width: 300px;
-                height: 100px;
-                margin-left: 500px;
+                height: 200px;
+                float: right;
+                margin-right: 148px;
                 background-color: green;
+                padding-top: 20px;
+                
                 
             }
+
+            h2{
+                margin: 0;
+            }
+
+            h3{
+                margin: 0;
+            }
+
 
         </style>
 
@@ -110,21 +130,22 @@
             <div id="about">
 
                 <h2>Sign up now!</h2>
-                
+                <input type="text" name="email" placeholder="Your Email" />
+                <button>Sign Up</button>
 
 
             </div>
 
             <div id="whatweOffer">
 
-                <h2>What We Offer</h2>
+                <h2 id="offerTitle">What We Offer</h2>
 
                 <div id="leftofferDiv">
 
                 </div>
 
                 <div id="rightofferDiv">
-
+                    <p>lorum dummy text</p>
                 </div>
 
             </div>
